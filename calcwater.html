@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Dieta</title>
+    <style>
+        body {
+            background-color: #121212; /* Fundo escuro */
+            color: white;              /* Texto branco para aparecer no preto */
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        input {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #2ecc71; /* Botão Verde */
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        h2 { color: #2ecc71; } /* Resultado em verde */
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Água</h1>
+    <input type="number" id="meuPeso" placeholder="Seu peso em kg">
+    <button onclick="calcularAgua()">Calcular Agora</button>
+    <h2 id="resultado"></h2>
+
+    <script src="exercicio 1.js"></script>
+</body>
+</html>
